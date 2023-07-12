@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: palegoldenrod;
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: rgb(74, 74, 4);
+}
+
+/* Scoreboard Style  */
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.scoreboard > div {
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(74, 74, 4);
+    border-radius: 10px;
+    color: rgb(74, 74, 4);
+}
+
+/* Choices Style */
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.choice {
+    border: 2px solid rgb(74, 74, 4);
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: aliceblue;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+choice:hover {
+    transform: scale(1.1);
+}
+
+.choice:active {
+    transform: scale(.9);
+}
+
+.choice i {
+    color: rgb(74, 74, 4);
+    font-size: 50px;
+}
+
+/* Results Style */
+
+.result {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: rgb(74, 74, 4);
+}
+
+#computer-choice {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(74, 74, 4);
+}
+
+/* Timer Style */
+
+.timer {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: rgb(74, 74, 4);
+}
+
+/* Play Again Button Style */
+
+.play-again {
+    display: block;
+    margin: 3rem auto 1rem auto;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(74, 74, 4);
+    color: aliceblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.play-again:hover {
+    background-color: #936;
+}
+
+.play-again:active {
+    transform: scale(.9);
+}
